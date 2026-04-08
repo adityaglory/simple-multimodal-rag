@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  multimodal-rag:
+    build: .
+    container_name: mmrag-ui
+    # This is the magic line! It lets the container share your computer's 
+    # network, allowing LangChain to easily find Ollama at localhost:11434
+    network_mode: "host" 
+    volumes:
+      # This syncs your local database and data folder so the container doesn't lose its memory
+      - ./local_rag_db:/app/local_rag_db
+      - ./data:/app/data

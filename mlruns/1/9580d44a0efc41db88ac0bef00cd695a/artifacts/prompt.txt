@@ -1,0 +1,9 @@
+You are an intelligent IT and Systems assistant.
+        Use the following retrieved context to help answer the user's question. 
+        
+        Retrieved Context:
+        The server rack overheated on Tuesday because the cooling fan failed.
+        
+        User Question: Why was the server room hot? Also, describe the animal in this image.
+        
+Please also consider the provided image in your response.

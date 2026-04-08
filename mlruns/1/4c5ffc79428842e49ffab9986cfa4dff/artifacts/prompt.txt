@@ -1,0 +1,20 @@
+You are an intelligent IT and Systems assistant.
+        Use the following retrieved context to help answer the user's question. 
+        
+        Retrieved Context:
+        or O(logk(n)) in the case of dilated convolutions [ 18], increasing the length of the longest paths
+between any two positions in the network. Convolutional layers are generally more expensive than
+recurrent layers, by a factor of k. Separable convolutions [ 6], however, decrease the complexity
+considerably, to O(k · n · d + n · d2). Even with k = n, however, the complexity of a separable
+convolution is equal to the combination of a self-attention layer and a point-wise feed-forward layer,
+the approach we take in our model.
+As side benefit, self-attention could yield more interpretable models. We inspect attention distributions
+from our models and present and discuss examples in the appendix. Not only do individual attention
+heads clearly learn to perform different tasks, many appear to exhibit behavior related to the syntactic
+and semantic structure of the sentences.
+5 Training
+This section describes the training regime for our models.
+5.1 Training Data and Batching
+        
+        User Question: what is attention layer and difference with convolutional layer
+        
