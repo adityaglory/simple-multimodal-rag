@@ -32,7 +32,7 @@ A production-ready, fully local Multimodal Retrieval-Augmented Generation (RAG) 
 ### Running the Application
 1. Clone this repository:
 ```bash
-git clone [https://github.com/adityaglory/simple-multimodal-rag.git](https://github.com/adityaglory/simple-multimodal-rag.git)
+git clone https://github.com/adityaglory/simple-multimodal-rag.git
 cd simple-multimodal-rag
 ```
 2. Add your PDF documents to the /data folder.
